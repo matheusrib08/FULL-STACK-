@@ -1,2 +1,55 @@
+:root {
 
+    --bisque: bisque;
+    --darkgreen: darkgreen;
+    --lightskyblue: lightskyblue;
+    --lightgray: lightgray;
+    --darkred: darkred;
+    --indigo: indigo;
+    --red: red;
+    --yellow: yellow;
+
+
+
+}
     
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.fundo{
+
+
+
+background-color: var(--lightgray);
+}
+
+
+
+
+
+
+.vcabeca {
+    background-color: var(--bisque);
+    width: 1870px;
+    height: 200px;
+    border: 5px solid blue;
+    margin: 20px;
+    display: flex;
+    text-align: center;
+    padding: 100px;
+
+}
+
+.textocabeca {
+color: var(--darkgreen);
+    text-align: center;
+    width: 1800px;
+   
+}
+
+
+
