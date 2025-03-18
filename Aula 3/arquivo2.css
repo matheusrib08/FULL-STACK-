@@ -112,24 +112,24 @@
 }
 img#C {
      position: absolute;
-     top: 100%;
+     top: 150%;
      left: 20%;
      width: 15%;
 }
 img#D {
     position: absolute;
-    top: 100%;
+    top: 150%;
     left: 45%;
     width: 15%;
-    height: 400px;
+    height: 300px;
 }
 
 img#E {
     position: absolute;
-    top: 100%;
+    top: 150%;
     left: 70%;
     width: 15%;
-    height: 400px;
+    height: 300px;
 }
 .aprenda {
     text-align: center;
@@ -138,7 +138,7 @@ img#E {
 }
 .iframe1 {
     position: absolute;
-    top: 170%;
+    top: 240%;
     margin-left: 25%;
     
 
@@ -146,7 +146,7 @@ img#E {
 
 .iframe2  {
     position: absolute;
-    top: 170%;
+    top: 240%;
     margin-left: 50%;
 }
 
@@ -172,4 +172,26 @@ img#E {
     margin: auto;
     width: 20%;
     align-items: center;
+}
+.qamarelo {
+    background-color: var(--yellow);
+     width: 35%;
+     margin: 5%;
+     display: flex;
+     text-align: center;
+     padding: 3%;
+     letter-spacing: 25%;
+     position:absolute;
+     top: 360%;
+     left: 27%;
+
+}
+.textoamarelo {
+    color:black;
+     align-items: center;
+     justify-content: space-evenly;
+     border: 5px;
+     margin: 5px;
+     text-align: center;
+    
 }
