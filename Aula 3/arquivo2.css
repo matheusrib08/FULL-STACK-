@@ -192,6 +192,43 @@ img#E {
      justify-content: space-evenly;
      border: 5px;
      margin: 5px;
+     text-align: center;   
+}
+.vfoot{
+     background-color: var(--bisque);
+     width:98% ;
+     height: 22%;
+     margin: 10%;
+     display: flex;
      text-align: center;
+     justify-content: space-evenly;
+     margin-right: 50%;
+     position: absolute;
+     right: -49%;
+     top: 370%;
     
+}
+img#F {
+    position: absolute;
+    top: 9%;
+    left: 1%;
+    width: 10%;
+    height: 90%;
+}
+img#G {
+    position: absolute;
+    top: 9%;
+    width: 7%;
+    height: 90%;
+    margin-left: 88%;
+}
+.textinhofinal{
+      color: black;
+      text-align: center;
+      width: 110%;
+      position: absolute;
+      top: 30%;
+      font: 15pt;
+     
+
 }
