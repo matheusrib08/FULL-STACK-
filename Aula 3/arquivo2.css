@@ -24,18 +24,19 @@
 
 
      background-color: var(--lightgray);
+     
  }
 
 
  .vcabeca {
      background-color: var(--bisque);
      width: 98%;
-     height: 200px;
-     border: 5px solid blue;
-     margin: 20px;
+     height: 50%;
+     border: 3px solid indigo;
+     margin: 1%;
      display: flex;
      text-align: center;
-     padding: 80px;
+     padding: 5%;
      justify-content: space-evenly;
  }
 
@@ -65,9 +66,9 @@
      display: flex;
      justify-content: space-evenly;
      align-items: center;
-     height: 40px;
-     margin: 25px;
-     margin-top: -20px;
+     height: 40%;
+     margin: 1%;
+     margin-top: -1%;
      width: 98%;
  }
  .menu{
@@ -89,20 +90,20 @@
 
      text-align: center;
      color: indigo;
-     font-size: 30px;
+     font-size: 200%;
      width: 100%;
 }
 .textao2 {
      text-align: center;
      color: indigo;
-     font-size: 30px;
+     font-size: 200%;
      width: 100%;
 }
 
 .textao3 {
      text-align: center;
      color: indigo;
-     font-size: 30px;
+     font-size: 200%;
      width: 100%;
 }
 
@@ -112,41 +113,50 @@
 }
 img#C {
      position: absolute;
-     top: 150%;
-     left: 20%;
+     top: 90%;
+     left: 22%;
      width: 15%;
+     height: 40%;
 }
 img#D {
     position: absolute;
-    top: 150%;
-    left: 45%;
-    width: 15%;
-    height: 300px;
+    top: 90%;
+    left: 41%;
+    width: 18%;
+    height: 40%;
 }
 
 img#E {
     position: absolute;
-    top: 150%;
-    left: 70%;
+    top: 90%;
+    left: 63%;
     width: 15%;
-    height: 300px;
+    height: 40%;
+}
+.classimg{
+align-items: center;
+display: flex;
+
+
+
 }
 .aprenda {
     text-align: center;
     color: black;
     padding: 450px;
+    font-size: 180%;
 }
 .iframe1 {
     position: absolute;
-    top: 240%;
-    margin-left: 25%;
+    top: 150%;
+    margin-left: 27%;
     
 
 }
 
 .iframe2  {
     position: absolute;
-    top: 240%;
+    top: 150%;
     margin-left: 50%;
 }
 
@@ -169,8 +179,8 @@ img#E {
 .dashed{
     border-style: dashed;
     border: 5px dashed red;
-    margin: auto;
-    width: 20%;
+    margin: -5%;
+    width: 25%;
     align-items: center;
 }
 .qamarelo {
@@ -179,21 +189,31 @@ img#E {
      margin: 5%;
      display: flex;
      text-align: center;
-     padding: 3%;
+     padding: 4%;
      letter-spacing: 25%;
      position:absolute;
-     top: 360%;
-     left: 27%;
+     top: 225%;
+     left: 28%;
 
 }
 .textoamarelo {
     color:black;
      align-items: center;
-     justify-content: space-evenly;
-     border: 5px;
-     margin: 5px;
-     text-align: center;   
+     margin-top: 0%;  
+     font-family: "Comic Sans MS", "Comic Sans", cursive; 
+     font-size: 20px;
+     margin-top: 0% ;
 }
+.math {
+   color: black;
+   font-size: 20px;
+   position: absolute;
+   display: flex;
+   top: 1%;
+   left: 1%;
+}
+
+
 .vfoot{
      background-color: var(--bisque);
      width:98% ;
@@ -202,10 +222,11 @@ img#E {
      display: flex;
      text-align: center;
      justify-content: space-evenly;
-     margin-right: 50%;
+     margin-right: 60%;
      position: absolute;
-     right: -49%;
-     top: 370%;
+     right: -59%;
+     top: 238%;
+     padding: 5%;
     
 }
 img#F {
@@ -225,10 +246,12 @@ img#G {
 .textinhofinal{
       color: black;
       text-align: center;
-      width: 110%;
+      width: 20%;
       position: absolute;
       top: 30%;
-      font: 15pt;
+      font: 15pt; 
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      display: flex;
      
 
 }
