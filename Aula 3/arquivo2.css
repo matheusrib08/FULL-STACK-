@@ -240,7 +240,7 @@ display: flex;
      margin-right: 60%;
      position: absolute;
      right: -59%;
-     top: 340%;
+     top: 348%;
      padding: 5%;
     
 }
@@ -261,10 +261,10 @@ img#G {
 .textinhofinal{
       color: black;
       text-align: center;
-      width: 20%;
+      width: 30%;
       position: absolute;
-      top: 30%;
       font: 15pt; 
-      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-family: "Comic Sans MS";
       display: flex;
+      top: 25%;
 }
