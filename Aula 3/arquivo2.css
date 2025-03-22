@@ -113,25 +113,25 @@
 }
 img#C {
      position: absolute;
-     top: 90%;
-     left: 22%;
-     width: 15%;
-     height: 40%;
+     top: 140%;
+     left: 13%;
+     width: 20%;
+     height: 60%;
 }
 img#D {
     position: absolute;
-    top: 90%;
-    left: 41%;
-    width: 18%;
-    height: 40%;
+    top: 140%;
+    left: 39%;
+    width: 23%;
+    height: 60%;
 }
 
 img#E {
     position: absolute;
-    top: 90%;
-    left: 63%;
-    width: 15%;
-    height: 40%;
+    top: 140%;
+    left: 69%;
+    width: 20%;
+    height: 60%;
 }
 .classimg{
 align-items: center;
@@ -143,31 +143,42 @@ display: flex;
 .aprenda {
     text-align: center;
     color: black;
-    padding: 450px;
-    font-size: 180%;
+    padding: 30%;
+    font-size: 170%;
+    position:absolute;
+    top: 150%;
 }
 .iframe1 {
     position: absolute;
-    top: 150%;
-    margin-left: 27%;
+    top: 230%;
+    margin-left: 20%;
     
 
 }
 
 .iframe2  {
     position: absolute;
-    top: 150%;
-    margin-left: 50%;
+    top: 230%;
+    margin-left: 55%;
 }
 
 .contatos {
     text-align: center;
     color: black;
-    padding: 100px;
+    position:absolute;
+    top: 300%;
+    font-size: 170%;
+    left: 46%;
 }
 .tabela {
     display: flex;
     justify-content: center;
+    
+    
+
+
+
+    
     
 
 
@@ -181,7 +192,11 @@ display: flex;
     border: 5px dashed red;
     margin: -5%;
     width: 25%;
-    align-items: center;
+    position:absolute;
+    top: 320%;
+    height: 25%;
+    text-align: center;
+    
 }
 .qamarelo {
     background-color: var(--yellow);
@@ -192,7 +207,7 @@ display: flex;
      padding: 4%;
      letter-spacing: 25%;
      position:absolute;
-     top: 225%;
+     top: 330%;
      left: 28%;
 
 }
@@ -225,7 +240,7 @@ display: flex;
      margin-right: 60%;
      position: absolute;
      right: -59%;
-     top: 238%;
+     top: 340%;
      padding: 5%;
     
 }
@@ -252,6 +267,4 @@ img#G {
       font: 15pt; 
       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       display: flex;
-     
-
 }
