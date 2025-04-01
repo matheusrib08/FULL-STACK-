@@ -64,4 +64,37 @@ ctx.fillStyle = 'black';
 ctx.fillRect(143,183,16,37);
 ctx.closePath();
 
+ctx.beginPath();
+ctx.lineWidth = 2;
+ctx.fillStyle = 'orange';
+ctx.lineTo(150,120);
+ctx.lineTo(120,150);
+ctx.lineTo(180,150);
+ctx.fill();
+ctx.closePath();
 
+ctx.beginPath();
+ctx.lineWidth = 2;
+ctx.fillStyle = 'blue';
+ctx.arc(0,230,40,1.5*Math.PI,0.5*Math.PI);
+ctx.fill();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.lineWidth = 2
+ctx.fillStyle = 'blue';
+ctx.fillRect(0,230,40,80);
+ctx.closePath();
+
+ctx.beginPath();
+ctx.lineWidth = 2
+ctx.fillStyle = 'blue';
+ctx.fillRect(30,260,80,70);
+ctx.closePath();
+
+ctx.beginPath();
+ctx.lineWidth = 2;
+ctx.fillStyle = 'blue';
+ctx.arc(100,300,40,1.5*Math.PI,0.5*Math.PI);
+ctx.fill();
+ctx.closePath();
