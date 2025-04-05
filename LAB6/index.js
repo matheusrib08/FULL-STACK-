@@ -3,7 +3,7 @@ let ctx = canvas.getContext('2d');
 
 let yuri = {
     x: 0,
-    y: 100,
+    y: 0,
     raio: 30,
     img: new Image(),
     desenha: function(){
@@ -26,6 +26,16 @@ document.addEventListener('mousemove',function(evento){
     console.log(x_mouse,y_mouse);
     yuri.x = x_mouse;
     yuri.y = y_mouse;
+
+    if (x_mouse >= 0 && x_mouse <= canvas.width && y_mouse >= 0 && y_mouse <= canvas.height){
+            yuri.x = Math.max(yuri.raio, Math.min(x_mouse, canvas.width - yuri.raio));
+        yuri.y = Math.max(yuri.raio, Math.min(y_mouse, canvas.height - yuri.raio));
+    } else {
+        
+        }
+
+    
+
 })
-yuri.x = Math.max(yuri.raio, Math.min(x_mouse, canvas.width - yuri.raio));
-            yuri.y = Math.max(yuri.raio, Math.min(y_mouse, canvas.height - yuri.raio));
+ 
+
