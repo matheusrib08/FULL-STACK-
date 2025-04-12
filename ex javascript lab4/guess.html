@@ -8,9 +8,16 @@
 </head>
 <body>
     <script src="index.js" type="text/javascript"></script>
-
-    <input type = “text” id = “numero1”>
-    <input type = “button” value = Enviar onclick = "soma();">
+    <div class="wrapper">
+        <h1>Adivinhe o Número!</h1>
+        <p>Digite um número entre 0 e 99:</p>
+        <div class="input-field">
+            <input type="number" id="guessInput" min="0" max="99">
+            <button id="checkButton">Verificar</button>
+        </div>
+        <p class="guess"></p>
+        <p class="chances">Você tem 10 chances.</p>
+    </div>
 
 
 
