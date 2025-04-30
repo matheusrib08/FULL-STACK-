@@ -1,13 +1,10 @@
 .Tabela{
 color: red;
 } 
-body {
-    background-color: lightblue;
-  }
-  
+
 h1{
 
-    color: yellow;
+    color: rgb(89, 0, 255);
 text-align: center;
 }
 
@@ -18,4 +15,8 @@ p {
 a:hover{
 
 color: red
+}
+
+body {
+   background-color:lightblue;
 }
