@@ -3,6 +3,17 @@ var express = require('express');
 var colors = require('colors');
 var bodyParser = require('body-parser');
 
+var mongodb = require("mongodb");
+
+const MongoClient = mongodb.MongoClient;
+
+
+const uri = `mongodb+srv://matheusrib0809:rib080906@cluster0809.svwgcbr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0809`;
+
+
+const client = new MongoClient(uri, { useNewUrlParser: true });
+
+
 var app = express();
 app.use(express.static('./public'));
 app.use(bodyParser.urlencoded({ extended: false}))
@@ -31,9 +42,8 @@ console.log(data);
 
 app.get('/cadastro',function (requisicao, resposta){
 var nome = requisicao.query.nome;
-var sobrenome = requisicao.query.sobrenome;
-var nascimento = requisicao.query.nascimento;
-var civil = requisicao.query.civil;
+var senha = requisicao.query.senha;
 
-resposta.render('resposta_cadastro', {nome, sobrenome, nascimento, civil})
+resposta.render('resposta_cadastro', {nome, senha})
 })
+
