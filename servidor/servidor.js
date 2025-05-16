@@ -8,7 +8,7 @@ var mongodb = require("mongodb");
 const MongoClient = mongodb.MongoClient;
 
 
-const uri = `mongodb+srv://matheusrib0809:rib080906@cluster0809.svwgcbr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0809`;
+const uri = "mongodb+srv://matheusrib0809:609080biRmat@cluster0809.svwgcbr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0809";
 
 
 const client = new MongoClient(uri, { useNewUrlParser: true });
@@ -27,7 +27,7 @@ server.listen(80);
 console.log('Servidor rodando ...'.rainbow);
 
 app.get('/', function (requisicao, resposta){
-resposta.redirect('home.html')
+resposta.redirect('Login.html')
 })
 
 app.get('/inicio', function (requisicao, resposta){
@@ -46,4 +46,11 @@ var senha = requisicao.query.senha;
 
 resposta.render('resposta_cadastro', {nome, senha})
 })
+
+app.get('/login',function (requisicao, resposta){
+var nome = requisicao.query.nome;
+
+resposta.render('resposta_login', {nome})
+})
+
 

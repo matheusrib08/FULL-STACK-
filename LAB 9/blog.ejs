@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog</title>
+  <link rel="stylesheet" href="/estilo.css">
+</head>
+<body class="cor">
+  <div class="centro">
+    <h1>Blog</h1>
+
+
+    <a href="/cadastrar_post">
+      <button class="botao-cadastro">Criar Novo Post</button>
+    </a>
+
+    <hr>
+
+
+    <% if (posts && posts.length > 0) { %>
+      <% posts.forEach(post => { %>
+        <div class="post">
+          <h2><%= post.titulo %></h2>
+          <p><strong>Resumo:</strong> <%= post.resumo %></p>
+          <p><strong>Conteúdo:</strong> <%= post.conteudo %></p>
+          <hr>
+        </div>
+      <% }) %>
+    <% } else { %>
+      <p>Nenhum post cadastrado ainda.</p>
+    <% } %>
+  </div>
+</body>
+</html>
+
