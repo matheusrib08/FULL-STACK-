@@ -13,6 +13,8 @@ const uri = "mongodb+srv://matheusrib0809:609080biRmat@cluster0809.svwgcbr.mongo
 
 const client = new MongoClient(uri, { useNewUrlParser: true });
 
+var dbo = client.db("exemplo_db");
+var usuarios = dbo.collection("usuarios");
 
 var app = express();
 app.use(express.static('./public'));
