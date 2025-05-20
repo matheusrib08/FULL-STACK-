@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cadastrar Post</title>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    form {
+      margin-top: 50px;
+      display: inline-block;
+      text-align: left;
+    }
+
+    input, textarea, button {
+      display: block;
+      margin-bottom: 10px;
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Novo Post</h1>
+  <form action="/cadastrar_post" method="POST">
+    <label>Título:</label>
+    <input type="text" name="titulo" required>
+    
+    <label>Resumo:</label>
+    <input type="text" name="resumo" required>
+    
+    <label>Conteúdo:</label>
+    <textarea name="conteudo" rows="5" required></textarea>
+    
+    <button type="submit">Publicar</button>
+  </form>
+</body>
+</html>
+
