@@ -33,7 +33,7 @@ client.connect().then(() => {
 
 // Rota principal redireciona para Projects.html
 app.get('/', (req, res) => {
-  res.redirect('/Projects.html');
+  res.redirect('/projects.html');
 });
 
 // Rota para exibir o blog
@@ -73,5 +73,3 @@ app.get('/login', (req, res) => {
   const nome = req.query.nome;
   res.render('resposta_login', { nome });
 });
-
-
