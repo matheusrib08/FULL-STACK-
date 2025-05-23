@@ -6,7 +6,7 @@ const mongodb = require('mongodb');
 const path = require('path');
 
 const MongoClient = mongodb.MongoClient;
-const uri = "mongodb+srv://matheusrib0809:609080biRmat@cluster0809.svwgcbr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0809";
+const uri = "mongodb+srv://matheusrib0809:mrt609080@cluster0809.svwgcbr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0809";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 const app = express();
