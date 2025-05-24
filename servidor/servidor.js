@@ -18,7 +18,7 @@ app.set('view engine', 'ejs');
 app.set('views', './views');
 
 const server = http.createServer(app);
-server.listen(3000, () => {
+server.listen(80, () => {
   console.log('Servidor rodando na porta 80...'.rainbow);
 });
 
